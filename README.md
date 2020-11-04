@@ -1,45 +1,46 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Japaniese Car Brands Memory Game
 
-Welcome USER_NAME,
+ A simple concentration card game where the player have to match pairs of cards with the same symbols on them for a limited time.
+As the name suggests the symbols/logos on the cards are from different Japaniese car manufacturers.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## User Experience (UX)
 
-## Gitpod Reminders
+### User Stories:
+* As a user, I want to be entertained by a simple and relaxing game.
+* As a user, I want easy to play game with nice visuals.
+* As a user, I expect easy to read game menu, options and features so that everything is understandable with just one look.
+* As a user, I want to play a game that helps me concentrate.
+* As a user, I want to play a game that can bring a possitive effect on my memory skills.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Strategy:
 
-`python3 -m http.server`
+ The goal for both the user and the owner in this case are exactly the same. The goal is to give the player a pleasent experience while playing. 
 
-A blue button should appear to click: *Make Public*,
+### Scope: 
 
-Another blue button should appear to click: *Open Browser*.
+ The player will be provided with features such as complete "how to play" instructions, an option to choose from light and dark theme for the game backgraund, 
+countdown timer, the score that is achieved in the proccess of playng and the game it self that is a grid of cards.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Structure:
 
-A blue button should appear to click: *Make Public*,
+  The layout it's in easy to follow logical order. Starting form a welcoming home page with a title on top, 
+ clear navigation buttons and instructions of how to play the game followed by a big start button that leads to the game.
+ Around the game grid are placed the player score and countdown timer so that everything is easy to see and follow.
 
-Another blue button should appear to click: *Open Browser*.
+### Skeleton:
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Surfice:
 
-## Updates Since The Instructional Video
+## Technologies Used 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Testing
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Deployment
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Credits
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Content 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Media
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+### Acknowledgements
