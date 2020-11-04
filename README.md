@@ -1,7 +1,7 @@
-# Japaniese Car Brands Memory Game
+# Japanese Car Brands Memory Game
 
  A simple concentration card game where the player have to match pairs of cards with the same symbols on them for a limited time.
-As the name suggests the symbols/logos on the cards are from different Japaniese car manufacturers.
+As the name suggests the symbols/logos on the cards are from different Japanese car manufacturers.
 
 ## User Experience (UX)
 
@@ -27,11 +27,22 @@ countdown timer, the score that is achieved in the proccess of playng and the ga
  clear navigation buttons and instructions of how to play the game followed by a big start button that leads to the game.
  Around the game grid are placed the player score and countdown timer so that everything is easy to see and follow.
 
-### Skeleton:
+### Skeleton (Wireframes):
+
+* On Mobile Device:
+* On Desktop
 
 ### Surfice:
 
+## Features
+
 ## Technologies Used 
+
+1. HTML5
+2. CSS3
+3. JavaScript 
+4. Balsamiq
+   - Used to create wireframes for the basic look of the memory game project.
 
 ## Testing
 
@@ -42,5 +53,8 @@ countdown timer, the score that is achieved in the proccess of playng and the ga
 ### Content 
 
 ### Media
+
+* The background images for both the light and the dark theme are downloaded from [Wallpaper Access](https://wallpaperaccess.com/).
+* The car manufactuters logo images are downloaded from [Pinterest](https://www.pinterest.com/).
 
 ### Acknowledgements
