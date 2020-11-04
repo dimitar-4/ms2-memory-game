@@ -7,10 +7,11 @@ As the name suggests the symbols/logos on the cards are from different Japanese 
 
 ### User Stories:
 * As a user, I want to be entertained by a simple and relaxing game.
-* As a user, I want easy to play game with nice visuals.
+* As a user, I want easy to play game with nice visual experience.
 * As a user, I expect easy to read game menu, options and features so that everything is understandable with just one look.
 * As a user, I want to play a game that helps me concentrate.
 * As a user, I want to play a game that can bring a possitive effect on my memory skills.
+* As a user, I want to play a game that covers object that I'm iterested in.
 
 ### Strategy:
 
@@ -30,11 +31,20 @@ countdown timer, the score that is achieved in the proccess of playng and the ga
 ### Skeleton (Wireframes):
 
 * On Mobile Device:
+   - [Home Page](https://raw.githubusercontent.com/dimitar-4/ms2-memory-game/master/assets/wireframes/Home%20Mobile.png)
+   - [Game Page](https://raw.githubusercontent.com/dimitar-4/ms2-memory-game/master/assets/wireframes/Game%20Mobile.png)
 * On Desktop
+   - [Home Page](https://raw.githubusercontent.com/dimitar-4/ms2-memory-game/master/assets/wireframes/Home.png)
+   - [Game Page](https://raw.githubusercontent.com/dimitar-4/ms2-memory-game/master/assets/wireframes/Game.png)
 
 ### Surfice:
 
 ## Features
+
+ This memory game project is made to be responsive on different devices. The game includes a full instructions on the Home page that 
+explain how to play. It is also provides interactions not only with the game it self, 
+but also the player can control and change the theme on the game pages so that the feel and look variates with the user's preferences. 
+There are also couple of additional buttons like Start/Play buttons on the Home page and under the game grid that helps navigating and interacting easily.  
 
 ## Technologies Used 
 
@@ -43,6 +53,10 @@ countdown timer, the score that is achieved in the proccess of playng and the ga
 3. JavaScript 
 4. Balsamiq
    - Used to create wireframes for the basic look of the memory game project.
+5. TinyPNG
+   - Used to compress the images for the backgraunds and the logos in the game.
+6. Bootstrap
+   - Bootstrap v4.5 provided the code for the navigation menu.
 
 ## Testing
 
