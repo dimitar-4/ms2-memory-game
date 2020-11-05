@@ -1,4 +1,4 @@
-# Japanese Car Brands Memory Game
+# Memory Game - Japanese Car Brands
 
  A simple concentration card game where the player have to match pairs of cards with the same symbols on them for a limited time.
 As the name suggests the symbols/logos on the cards are from different Japanese car manufacturers.
@@ -56,7 +56,9 @@ There are also couple of additional buttons like Start/Play buttons on the Home 
 5. TinyPNG
    - Used to compress the images for the backgraunds and the logos in the game.
 6. Bootstrap
-   - Bootstrap v4.5 provided the code for the navigation menu.
+   - Bootstrap v4.5.3 to make the game responsive and provide code for the navigation menu.
+7. Google Fonts
+   - Used "Exo" and "Play" fonts for the project.
 
 ## Testing
 
