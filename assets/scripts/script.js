@@ -14,67 +14,67 @@ document.addEventListener("DOMContentLoaded", () => {
     const cards = [
     {
         name: "Toyota",
-        imageSrc: "../assets/images/toyota-logo.png"
+        imageSrc: "./assets/images/toyota-logo.png"
     },
     {
         name: "Honda",
-        imageSrc: "../assets/images/honda-logo.png"
+        imageSrc: "./assets/images/honda-logo.png"
     },
     {
         name: "Subaru",
-        imageSrc: "../assets/images/subaru-logo.png"
+        imageSrc: "./assets/images/subaru-logo.png"
     },
     {
         name: "Nissan",
-        imageSrc: "../assets/images/nissan-logo.png"
+        imageSrc: "./assets/images/nissan-logo.png"
     },
     {
         name: "Mazda",
-        imageSrc: "../assets/images/mazda-logo.png"
+        imageSrc: "./assets/images/mazda-logo.png"
     },
     {
         name: "Mitsubishi",
-        imageSrc: "../assets/images/mitsubishi-logo.png"
+        imageSrc: "./assets/images/mitsubishi-logo.png"
     },
     {
         name: "Suzuki",
-        imageSrc: "../assets/images/suzuki-logo.png"
+        imageSrc: "./assets/images/suzuki-logo.png"
     },
     {
         name: "Daihatsu",
-        imageSrc: "../assets/images/daihatsu-logo.png"
+        imageSrc: "./assets/images/daihatsu-logo.png"
     },
     {
         name: "Toyota",
-        imageSrc: "../assets/images/toyota-logo.png"
+        imageSrc: "./assets/images/toyota-logo.png"
     },
     {
         name: "Honda",
-        imageSrc: "../assets/images/honda-logo.png"
+        imageSrc: "./assets/images/honda-logo.png"
     },
     {
         name: "Subaru",
-        imageSrc: "../assets/images/subaru-logo.png"
+        imageSrc: "./assets/images/subaru-logo.png"
     },
     {
         name: "Nissan",
-        imageSrc: "../assets/images/nissan-logo.png"
+        imageSrc: "./assets/images/nissan-logo.png"
     },
     {
         name: "Mazda",
-        imageSrc: "../assets/images/mazda-logo.png"
+        imageSrc: "./assets/images/mazda-logo.png"
     },
     {
         name: "Mitsubishi",
-        imageSrc: "../assets/images/mitsubishi-logo.png"
+        imageSrc: "./assets/images/mitsubishi-logo.png"
     },
     {
         name: "Suzuki",
-        imageSrc: "../assets/images/suzuki-logo.png"
+        imageSrc: "./assets/images/suzuki-logo.png"
     },
     {
         name: "Daihatsu",
-        imageSrc: "../assets/images/daihatsu-logo.png"
+        imageSrc: "./assets/images/daihatsu-logo.png"
     }
 ];
 
@@ -88,10 +88,12 @@ var cardsChosenId = [];
 
 var cardsWon = [];
 
+var resultDisplay = {};
+
 function gameBoard() {
     for (let i = 0; i < cards.length; i++) {
         var card = document.createElement("img");
-        card.setAttribute("src", "../assets/images/card-back.png")
+        card.setAttribute("src", "./assets/images/card-back.png")
         card.setAttribute("data-id", i)
         card.addEventListener("click", flipCard)
         game.appendChild(card)
@@ -123,7 +125,7 @@ function checkForMatch() {
 // Flip Cards
 
 function flipCard() {
-    var cardId = this.getAttrubute("card-id");
+    var cardId = this.dataset.id;
     cardsChosen.push(cards[cardId].name)
     cardsChosenId.push(cardId)
     this.setAttribute("src", cards[cardId].img)
