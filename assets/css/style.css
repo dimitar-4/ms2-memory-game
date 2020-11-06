@@ -85,7 +85,16 @@ body {
 .play:hover {
     text-decoration: none;
     color: #524f4f;
-    background: rgba(241, 234, 234, 0.8);
+    background: rgba(241, 234, 234, 0.5);
+}
+
+/* Game Section Styles */
+
+.game {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* Footer */
