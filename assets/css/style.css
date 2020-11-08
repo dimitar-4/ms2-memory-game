@@ -105,7 +105,7 @@ h3 {
 
 h3 {
     background: rgba(82, 79, 79, 0.5);
-    border: 1px solid #4ef207
+    border: 1px solid #4ef207;
 }
 
 .game-wrapper {
@@ -125,12 +125,19 @@ h3 {
     padding: 10px;
     font-family: "Play", sans-serif;
     text-align: center;
-    letter-spacing: 1px;
     color: #4ef207;
     margin-top: 25px;
     background-color: rgba(82, 79, 79, 0.5);
     border: 1px solid #4ef207;
-}
+    font-size: 1.5rem;
+    font-weight: 400;
+    }
+
+    h3 {
+    background: rgba(82, 79, 79, 0.5);
+    border: 1px solid #4ef207;
+    font-size: 1.5rem;
+    }    
     
     .game-wrapper{
         margin-bottom: 25px;
@@ -146,10 +153,47 @@ h3 {
     }
 }
 
+@media screen and (max-width: 360px ){
+    .main-heading {
+    padding: 10px;
+    font-family: "Play", sans-serif;
+    text-align: center;
+    color: #4ef207;
+    margin-top: 25px;
+    background-color: rgba(82, 79, 79, 0.5);
+    border: 1px solid #4ef207;
+    font-size: 1rem;
+    font-weight: 400;
+    }
+
+    h3 {
+    background: rgba(82, 79, 79, 0.5);
+    border: 1px solid #4ef207;
+    font-size: 1rem;
+    }    
+    
+    .game-wrapper{
+        margin-bottom: 25px;
+    }
+    
+    .game, img{
+        max-width: 90%;
+        height: 61px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 1px;
+    }
+}
+
 img {
     border: 1px solid #4ef207;
     border-radius: 5%;
     margin: 2px;
+}
+
+img:hover {
+    border: 1px solid #524f4f;
 }
 
 /* Footer */
