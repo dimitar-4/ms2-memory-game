@@ -64,6 +64,17 @@ There are also couple of additional buttons like Start/Play buttons on the Home 
 
 ## Deployment
 
+Deploying the Car Brands Memory Game website to GitHub Pages from its GitHub repository, was in the following order:
+
+1. Log into GitHub.
+2. From the list of repositories on the screen, select ms2-memory-game.
+3. From the menu items near the top of the page, select Settings.
+4. Scroll down to the GitHub Pages section.
+5. Under Source click the drop-down menu labelled None and select Master Branch
+6. When Master Branch is selected press the Save button on the right and the page is automatically refreshed, the website is now deployed.
+7. Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+8. Run the link in the browser to open the website.
+
 ## Credits
 
 ### Content 
