@@ -227,30 +227,30 @@ img:hover {
     margin: 0;
 }
 
-.day,
-.night {
+#day,
+#night {
     margin-right: 10px;
     border: 1px solid #4ef207;
     border-radius: 5%;
     letter-spacing: 1px;
 }
 
-.day {
+#day {
     background: #f5f5f0;
     color: #524f4f;
 }
 
-.night {
+#night {
     background: #524f4f;
     color: #f5f5f0;
 }
 
-.day:hover {
+#day:hover {
     color: #f5f5f0;
     background: #4ef207;
 }
 
-.night:hover {
+#night:hover {
     color: #524f4f;
     background: #4ef207;
 }
