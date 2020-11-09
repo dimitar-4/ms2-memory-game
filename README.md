@@ -1,7 +1,11 @@
-# Memory Game - Japanese Car Brands
+# Memory Game - Car Brands
+
+[Live link here.](https://dimitar-4.github.io/ms2-memory-game/) 
 
  A simple concentration card game where the player have to match pairs of cards with the same symbols on them for a limited time.
-As the name suggests the symbols/logos on the cards are from different Japanese car manufacturers.
+As the name suggests the symbols/logos on the cards are from different car manufacturers.
+
+![responsive-img](assets/responsive-img/memory-game.PNG)
 
 ## User Experience (UX)
 
