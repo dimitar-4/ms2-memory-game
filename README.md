@@ -34,10 +34,14 @@ countdown timer, the score that is achieved in the proccess of playng and the ga
    - [Home Page](https://raw.githubusercontent.com/dimitar-4/ms2-memory-game/master/assets/wireframes/Home%20Mobile.png)
    - [Game Page](https://raw.githubusercontent.com/dimitar-4/ms2-memory-game/master/assets/wireframes/Game%20Mobile.png)
 * On Desktop
-   - [Home Page](https://raw.githubusercontent.com/dimitar-4/ms2-memory-game/master/assets/wireframes/Home.png)
-   - [Game Page](https://raw.githubusercontent.com/dimitar-4/ms2-memory-game/master/assets/wireframes/Game.png)
+   - [Home Page](https://raw.githubusercontent.com/dimitar-4/ms2-memory-game/master/assets/wireframes/Home%20Desktop.png)
+   - [Game Page](https://raw.githubusercontent.com/dimitar-4/ms2-memory-game/master/assets/wireframes/Game%20Desktop.png)
 
 ### Surfice:
+
+ To create a feeling for a classic game from couple of decades ago in the project are used white, 
+electric green and dark gray color for the backgrounds. This three color scheme is also combined 
+with the "Play" and "Exo" Google fonts to further point the project in the desired visual direction.
 
 ## Features
 
@@ -56,11 +60,25 @@ There are also couple of additional buttons like Start/Play buttons on the Home 
 5. TinyPNG
    - Used to compress the images for the backgraunds and the logos in the game.
 6. Bootstrap
-   - Bootstrap v4.5.3 to make the game responsive and provide code for the navigation menu.
+   - Bootstrap v4.5.3 to make the game responsive on different devices.
 7. Google Fonts
    - Used "Exo" and "Play" fonts for the project.
+8. Git
+   - Used for version control by Gitpod's terminal commit to Git and push to GitHub.
+9. GitHub
+   - GitHub is where the project is stored after being pushed from Git.
+10. jQuery
 
 ## Testing
+
+### Code Testing
+
+1. The HTML code is tested on [W3C Markup Validator](https://validator.w3.org/#validate_by_input) and no errors were shown.
+2. The CSS code is tested on [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) and no errors were shown.
+
+### Device Testing
+
+### Links Testing
 
 ## Deployment
 
@@ -77,7 +95,10 @@ Deploying the Car Brands Memory Game website to GitHub Pages from its GitHub rep
 
 ## Credits
 
-### Content 
+### Content
+
+* All the text in the content of the Car Brands Memory Game is written by the developer.
+* The source for the countDown function in the script.js file is from [this](https://stackoverflow.com/questions/35299413/1-min-countdown-javascript) stack overflow page. 
 
 ### Media
 
