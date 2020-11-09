@@ -1,10 +1,10 @@
 // Theme Buttons JS
 
 function turnDay() {
-    document.body.style.backgroundImage = "url('../assets/images/light-theme-bg.jpg')";
+    document.body.style.backgroundImage = "url('./assets/images/light-theme-bg.jpg')";
 }
 function turnNight() {
-    document.body.style.backgroundImage = "url('../assets/images/dark-theme-bg.jpg')";
+    document.body.style.backgroundImage = "url('./assets/images/dark-theme-bg.jpg')";
 }
 
 // Game JS
