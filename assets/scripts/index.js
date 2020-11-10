@@ -45,12 +45,12 @@ const cards = [
 
 const cardsWithDuplicates = cards.concat(cards);
 
-var cardsChosen = [];
-var cardsChosenId = [];
-var cardsWon = [];
-var resultDisplay = {};
-var seconds = 60;
-var time;
+let cardsChosen = [];
+let cardsChosenId = [];
+let cardsWon = [];
+let resultDisplay = {};
+let seconds = 60;
+let time;
 
 document.addEventListener("DOMContentLoaded", () => {
     // Randomise the card order
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function initialiseGame() {
         let cardsHTML = [];
         for (let i = 0; i < cardsWithDuplicates.length; i++) {
-            var card = document.createElement("img");
+            let card = document.createElement("img");
             card.setAttribute("src", "./assets/images/card-back.png");
             card.setAttribute("data-id", cardsWithDuplicates[i].id);
             card.addEventListener("click", handleCardClick);
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Match check
     
     function checkForMatch() {
-        var cardMatch = document.querySelectorAll("img");
+        let cardMatch = document.querySelectorAll("img");
         const cardOneId = cardsChosenId[0];
         const cardTwoId = cardsChosenId[1];
         if (cardOneId !== cardTwoId) {
@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Card click event listener
     
     function handleCardClick() {
-        var cardId = parseInt(this.dataset.id);
+        let cardId = parseInt(this.dataset.id);
         cardsChosenId.push(cardId);
         cardsChosen.push(this);
         const imgSrc = cards.filter((obj) => {
