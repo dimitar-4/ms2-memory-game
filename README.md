@@ -1,6 +1,6 @@
-# Memory Game - Car Brands
+# Car Brands Memory Game
 
-[Live link here.](https://dimitar-4.github.io/ms2-memory-game/) 
+Play the game [HERE!](https://dimitar-4.github.io/ms2-memory-game/) 
 
  A simple concentration card game where the player have to match pairs of cards with the same symbols on them for a limited time.
 As the name suggests the symbols/logos on the cards are from different car manufacturers.
@@ -41,11 +41,12 @@ countdown timer, the score that is achieved in the proccess of playng and the ga
    - [Home Page](https://raw.githubusercontent.com/dimitar-4/ms2-memory-game/master/assets/wireframes/Home%20Desktop.png)
    - [Game Page](https://raw.githubusercontent.com/dimitar-4/ms2-memory-game/master/assets/wireframes/Game%20Desktop.png)
 
-### Surfice:
+### Surface:
 
  To create a feeling for a classic game from couple of decades ago in the project are used white, 
-electric green and dark gray color for the backgrounds. This three color scheme is also combined 
-with the "Play" and "Exo" Google fonts to further point the project in the desired visual direction.
+electric green and dark gray color for the text backgrounds. This three color scheme is also combined 
+with the "Play" and "Exo" Google fonts to further point the project in the desired visual direction. The
+background images are chosen according to the character of the game. 
 
 ## Features
 
