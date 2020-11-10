@@ -5,7 +5,7 @@
  A simple concentration card game where the player have to match pairs of cards with the same symbols on them for a limited time.
 As the name suggests the symbols/logos on the cards are from different car manufacturers.
 
-![responsive-img](assets/responsive-img/memory-game.PNG)
+![responsive-img](assets/responsive-image/my-memory-game.PNG)
 
 ## User Experience (UX)
 
