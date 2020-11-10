@@ -117,7 +117,12 @@ img {
 }
 
 img:hover {
-    border: 1px solid #524f4f;
+    box-shadow:
+                1px 1px #4ef207,
+                2px 2px #524f4f,
+                3px 3px #4ef207;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
 }
 
 /* Media Queries */
@@ -152,7 +157,7 @@ img:hover {
     .game,
     img {
         max-width: 90%;
-        height: 74px;
+        height: 77px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -186,7 +191,7 @@ img:hover {
     .game,
     img {
         max-width: 90%;
-        height: 61px;
+        height: 65px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
