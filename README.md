@@ -103,6 +103,7 @@ Deploying the Car Brands Memory Game website to GitHub Pages from its GitHub rep
 ### Content
 
 * All the text in the content of the Car Brands Memory Game is written by the developer.
+* CSS code for the 3D shadow effect when hovering over the game cards is found [here](https://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users/). 
 * The source for the countDown function in the script.js file is from [this](https://stackoverflow.com/questions/35299413/1-min-countdown-javascript) stack overflow page. 
 
 ### Media
