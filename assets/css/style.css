@@ -250,3 +250,24 @@ img:hover {
     color: #524f4f;
     background: #4ef207;
 }
+
+/* Pop Up windows */
+
+.body-bg {
+    background-image: url(../images/dark-theme-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pop-up {
+    padding: 10px;
+    font-family: "Play", sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #4ef207;
+    margin-top: 25px;
+    margin-bottom: 0;
+    background-color: rgba(82, 79, 79, 0.5);
+    border: 1px solid #4ef207;
+}
