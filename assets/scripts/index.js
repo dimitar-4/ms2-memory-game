@@ -1,13 +1,4 @@
-// Theme Buttons JS
-
-function turnDay() {
-    document.body.style.backgroundImage = "url('./assets/images/light-theme-bg.jpg')";
-}
-function turnNight() {
-    document.body.style.backgroundImage = "url('./assets/images/dark-theme-bg.jpg')";
-}
-
-// Game JS
+// CB Memory Game
 
 const cards = [
     {
@@ -51,27 +42,35 @@ const cards = [
         imageSrc: "./assets/images/daihatsu-logo.png",
     },
 ];
+
 const cardsWithDuplicates = cards.concat(cards);
+
 var cardsChosen = [];
 var cardsChosenId = [];
 var cardsWon = [];
 var resultDisplay = {};
 var seconds = 60;
 var time;
+
 document.addEventListener("DOMContentLoaded", () => {
+    // Randomise the card order
     cardsWithDuplicates.sort(() => Math.random() - 0.5);
+
     const game = document.querySelector(".game");
+
     function initialiseGame() {
+        let cardsHTML = [];
         for (let i = 0; i < cardsWithDuplicates.length; i++) {
             var card = document.createElement("img");
             card.setAttribute("src", "./assets/images/card-back.png");
             card.setAttribute("data-id", cardsWithDuplicates[i].id);
-            card.addEventListener("click", flipCard);
+            card.addEventListener("click", handleCardClick);
             game.appendChild(card);
         }
+        game.append(cardsHTML);
     }
     
-    // Matches
+    // Match check
     
     function checkForMatch() {
         var cardMatch = document.querySelectorAll("img");
@@ -80,18 +79,20 @@ document.addEventListener("DOMContentLoaded", () => {
         if (cardOneId !== cardTwoId) {
             cardsChosen[0].setAttribute("src", "./assets/images/card-back.png");
             cardsChosen[1].setAttribute("src", "./assets/images/card-back.png");
+        } else {
+            cardsWon.push(cardOneId);
         }
         cardsChosen = [];
         cardsChosenId = [];
         resultDisplay.textContent = cardsWon.length;
-        if (cardsWon.length === cards.length / 2) {
-            resultDisplay.textContent = "YOU WIN!";
+        if (cardsWon.length === cards.length) {
+            window.open('/win.html');
         }
     }
     
-    // Flip Cards
+    // Card click event listener
     
-    function flipCard() {
+    function handleCardClick() {
         var cardId = parseInt(this.dataset.id);
         cardsChosenId.push(cardId);
         cardsChosen.push(this);
@@ -108,13 +109,16 @@ document.addEventListener("DOMContentLoaded", () => {
     
     function countDown() {
         if (seconds < 60) {
-            document.getElementById("timer").innerHTML = seconds;
+            document.getElementById("timer").innerHTML = seconds + "s";
         }
         if (seconds > 0) {
             seconds--;
         } else {
             clearInterval(time);
-            alert("Time's Up. Play Again!");
+            window.open("/time.html");
+        } 
+        if (cardsWon.length === cards.length) {
+            clearInterval(time);
         }
     }
     document.getElementById("gameboard").onclick = function () {
@@ -125,7 +129,16 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     };
 
-    document.getElementById("timer").innerHTML = "1:00";
+    document.getElementById("timer").innerHTML = "60s";
     
     initialiseGame();
 });
+
+// Theme Buttons
+
+function turnDay() {
+    document.body.style.backgroundImage = "url('./assets/images/light-theme-bg.jpg')";
+}
+function turnNight() {
+    document.body.style.backgroundImage = "url('./assets/images/dark-theme-bg.jpg')";
+}
