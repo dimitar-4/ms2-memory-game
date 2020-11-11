@@ -53,7 +53,9 @@ let seconds = 60;
 let time;
 
 document.addEventListener("DOMContentLoaded", () => {
-    // Randomise the card order
+    
+    // Randomise the cards order
+    
     cardsWithDuplicates.sort(() => Math.random() - 0.5);
 
     const game = document.querySelector(".game");
@@ -69,11 +71,10 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         game.append(cardsHTML);
     }
-    
+
     // Match check
-    
+
     function checkForMatch() {
-        let cardMatch = document.querySelectorAll("img");
         const cardOneId = cardsChosenId[0];
         const cardTwoId = cardsChosenId[1];
         if (cardOneId !== cardTwoId) {
@@ -86,12 +87,12 @@ document.addEventListener("DOMContentLoaded", () => {
         cardsChosenId = [];
         resultDisplay.textContent = cardsWon.length;
         if (cardsWon.length === cards.length) {
-            window.open('/win.html');
+            window.open("/win.html");
         }
     }
-    
+
     // Card click event listener
-    
+
     function handleCardClick() {
         let cardId = parseInt(this.dataset.id);
         cardsChosenId.push(cardId);
@@ -104,9 +105,9 @@ document.addEventListener("DOMContentLoaded", () => {
             setTimeout(checkForMatch, 500);
         }
     }
-    
+
     // Timer
-    
+
     function countDown() {
         if (seconds < 60) {
             document.getElementById("timer").innerHTML = seconds + "s";
@@ -116,7 +117,7 @@ document.addEventListener("DOMContentLoaded", () => {
         } else {
             clearInterval(time);
             window.open("/time.html");
-        } 
+        }
         if (cardsWon.length === cards.length) {
             clearInterval(time);
         }
@@ -125,12 +126,12 @@ document.addEventListener("DOMContentLoaded", () => {
         if (!time) {
             time = window.setInterval(function () {
                 countDown();
-            }, 1000); 
+            }, 1000);
         }
     };
 
     document.getElementById("timer").innerHTML = "60s";
-    
+
     initialiseGame();
 });
 
