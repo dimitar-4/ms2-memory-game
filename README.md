@@ -1,6 +1,6 @@
 # Car Brands Memory Game
 
-Play the game [HERE!](https://dimitar-4.github.io/ms2-memory-game/) 
+Play the game - [live link here!](https://dimitar-4.github.io/ms2-memory-game/) 
 
  A simple concentration card game where the player have to match pairs of cards with the same symbols on them for a limited time.
 As the name suggests the symbols/logos on the cards are from different car manufacturers.
@@ -11,7 +11,6 @@ As the name suggests the symbols/logos on the cards are from different car manuf
 
 ### User Stories:
 * As a user, I want to be entertained by a simple and relaxing game.
-* As a user, I want easy to play game with nice visual experience.
 * As a user, I expect easy to read game menu, options and features so that everything is understandable with just one look.
 * As a user, I want to play a game that helps me concentrate.
 * As a user, I want to play a game that can bring a possitive effect on my memory skills.
@@ -24,13 +23,13 @@ As the name suggests the symbols/logos on the cards are from different car manuf
 ### Scope: 
 
  The player will be provided with features such as complete "how to play" instructions, an option to choose from light and dark theme for the game backgraund, 
-countdown timer, the score that is achieved in the proccess of playng and the game it self that is a grid of cards.
+countdown timer.
 
 ### Structure:
 
-  The layout it's in easy to follow logical order. Starting form a welcoming home page with a title on top, 
- clear navigation buttons and instructions of how to play the game followed by a big start button that leads to the game.
- Around the game grid are placed the player score and countdown timer so that everything is easy to see and follow.
+  The layout it's in easy to follow logical order. Starting form a welcoming home page with a title on top, that is also a link to the game, 
+ and instructions of how to play the game followed by a big start button that leads to the game.
+ On the game page around the game grid are placed the player countdown timer and a restart button so that everything is easy to see and follow.
 
 ### Skeleton (Wireframes):
 
@@ -43,7 +42,7 @@ countdown timer, the score that is achieved in the proccess of playng and the ga
 
 ### Surface:
 
- To create a feeling for a classic game from couple of decades ago in the project are used white, 
+ To create a feeling for a classic game from couple of decades ago the project is using white, 
 electric green and dark gray color for the text backgrounds. This three color scheme is also combined 
 with the "Play" and "Exo" Google fonts to further point the project in the desired visual direction. The
 background images are chosen according to the character of the game. 
@@ -52,8 +51,8 @@ background images are chosen according to the character of the game.
 
  This memory game project is made to be responsive on different devices. The game includes a full instructions on the Home page that 
 explain how to play. It is also provides interactions not only with the game it self, 
-but also the player can control and change the theme on the game pages so that the feel and look variates with the user's preferences. 
-There are also couple of additional buttons like Start/Play buttons on the Home page and under the game grid that helps navigating and interacting easily.  
+but also the player can change the theme on the game page so that the feel and look variates with the user's preferences. 
+There are also couple of additional buttons like Restart/Play buttons on the Home page and above the game grid that helps navigating and interacting more easily.  
 
 ## Technologies Used 
 
@@ -73,6 +72,9 @@ There are also couple of additional buttons like Start/Play buttons on the Home 
 9. GitHub
    - GitHub is where the project is stored after being pushed from Git.
 10. jQuery
+   - Used to simplify DOM manipulation.
+11. Web Formatter
+   - Used to format the code on all html, css and js files.
 
 ## Testing
 
@@ -80,6 +82,7 @@ There are also couple of additional buttons like Start/Play buttons on the Home 
 
 1. The HTML code is tested on [W3C Markup Validator](https://validator.w3.org/#validate_by_input) and no errors were shown.
 2. The CSS code is tested on [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) and no errors were shown.
+3. The JavaScript code is tested on [JS Hint](https://jshint.com/) and warnings were shown but not errors in the code.
 
 ### Device Testing
 
