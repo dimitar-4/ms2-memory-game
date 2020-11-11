@@ -49,10 +49,12 @@ background images are chosen according to the character of the game.
 
 ## Features
 
- This memory game project is made to be responsive on different devices. The game includes a full instructions on the Home page that 
-explain how to play. It is also provides interactions not only with the game it self, 
-but also the player can change the theme on the game page so that the feel and look variates with the user's preferences. 
-There are also couple of additional buttons like Restart/Play buttons on the Home page and above the game grid that helps navigating and interacting more easily.  
+ * This memory game project is made to be responsive on different devices. 
+ * The game includes a full instructions on the Home page that explains how to play.
+ * It is also provides interactions not only with the game it self, 
+but with changing the theme (backgraund image) on the game page so that the feel and look variates with the user's preferences. 
+ * There are also couple of additional buttons like Restart/Play buttons on the Home page and above the game grid that helps navigating and interacting more easily.
+ * The Car Brands Memory Game headings on both pages are links to eachother.  
 
 ## Technologies Used 
 
@@ -72,21 +74,86 @@ There are also couple of additional buttons like Restart/Play buttons on the Hom
 9. GitHub
    - GitHub is where the project is stored after being pushed from Git.
 10. jQuery
-   - Used to simplify DOM manipulation.
+    - Used to simplify DOM manipulation.
 11. Web Formatter
-   - Used to format the code on all html, css and js files.
+    - Used to format the code on all html, css and js files.
 
 ## Testing
 
+### UX Testing
+ 
+ By opening Car Brans Memory Game a simple easy to read entering or home page is displayed.
+ The text is easy to read with good contrast to the backgraund. 
+ 
+ Home page contains: 
+ 1. A Title for the game that is also a link to the game page.  
+ 2. "How To Play" title followed by a simple instuctions list of how to play the game, and a TIP at the end explaining how to change the theme in the game page. 
+ 3. Play button that is big and easy to find directly when enter the page.
+ 4. At the bottom of the page there is a kind sentance thanking the player for playing.
+
+ By opening the game page a realy nice and simple layout of is loaded. The name of the game is on top. 
+ Under the name there is a 60 seconds timer that starts when a card is clicked. Next to the timer is the restart game buttom. 
+ Under that is the gameboard of 16 cards in a square shape. At the bottom are the change theme buttons. 
+ Tha layout of the page is simple and easy to use.
+
+ While playing the memory game, the player's focus is grabbed quickly. When the game is won a window is opening and saying "YOU WIN". 
+ It is the same when the time is up but the window says "Times Up". It is helping to train 
+ concentration and memory. It is also very interesting when the player is someone who likes specific car brand 
+ or the idea of playing a memomry game with car brands logos. The player can be focused and at the same time relaxed 
+ while playing.  
+
+ The game was tested also from famaly and friends. All share the UX testing above and there were opinions that it's catchy and easy to forget 
+ everything and enjoy a number af games at a time.      
+
 ### Code Testing
+
+All code tests are made by direct input method.
 
 1. The HTML code is tested on [W3C Markup Validator](https://validator.w3.org/#validate_by_input) and no errors were shown.
 2. The CSS code is tested on [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) and no errors were shown.
 3. The JavaScript code is tested on [JS Hint](https://jshint.com/) and warnings were shown but not errors in the code.
 
+### Browsers testing
+
+No problems were shown while testing the game. 
+
+* Chrome
+* Opera 
+* Edge
+
 ### Device Testing
 
+The game is tested on different devices to check if it is responsive and if it shows any problems.
+
+Mobile devices tested:
+* Samsung Galaxy S20 FE
+* Xiomi Note 5
+* Samsung Galaxy A51
+
+Other devices tested:
+* Acer Aspire 5 A515-51G
+* Acer B7 series-B277(Desktop Monitor)
+
+Adding screenshots from the devices testing and developer tools responsive testings:
+
+* [Samsung Galaxy A51](https://raw.githubusercontent.com/dimitar-4/ms2-memory-game/master/assets/test-images/screenshot1.png)
+* [Xiomi Note 5](https://raw.githubusercontent.com/dimitar-4/ms2-memory-game/master/assets/test-images/screenshot2.png)
+* [IPad](https://raw.githubusercontent.com/dimitar-4/ms2-memory-game/master/assets/test-images/ipad-test.PNG)
+* [Motorola G4](https://raw.githubusercontent.com/dimitar-4/ms2-memory-game/master/assets/test-images/moto-g4-test.PNG)
+* [IPhone](https://raw.githubusercontent.com/dimitar-4/ms2-memory-game/master/assets/test-images/iphone-test.PNG)
+* [Surface Duo](https://raw.githubusercontent.com/dimitar-4/ms2-memory-game/master/assets/test-images/surface-duo-test.PNG)
+
 ### Links Testing
+
+All inner links and buttons are tested. No problems were shown.
+
+### Problems
+
+While testing the game there are some problems that are left to be fixed in the future.
+The pop up windows must be closed manually and the goal for them is to be displayed for couple of seconds 
+and close automatically. Also already played cards can be played again wich is a problem to fix in the future.
+This problems are noted wile the testing period. 
+
 
 ## Deployment
 
@@ -106,6 +173,8 @@ Deploying the Car Brands Memory Game website to GitHub Pages from its GitHub rep
 ### Content
 
 * All the text in the content of the Car Brands Memory Game is written by the developer.
+* These video tutorials [here](https://www.youtube.com/watch?v=bbb9dZotsOc&ab_channel=WebDevJunkie),
+ and [here](https://www.youtube.com/watch?v=tjyDOHzKN0w&t=8s&ab_channel=CodewithAniaKub%C3%B3w%23JavaScriptGames) had a big inpact on my project game. 
 * CSS code for the 3D shadow effect when hovering over the game cards is found [here](https://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users/). 
 * The source for the countDown function in the script.js file is from [this](https://stackoverflow.com/questions/35299413/1-min-countdown-javascript) stack overflow page. 
 
@@ -113,5 +182,10 @@ Deploying the Car Brands Memory Game website to GitHub Pages from its GitHub rep
 
 * The background images for both the light and the dark theme are downloaded from [Wallpaper Access](https://wallpaperaccess.com/).
 * The car manufactuters logo images are downloaded from [Pinterest](https://www.pinterest.com/).
+* The responsive image on different devices is made [here](http://ami.responsivedesign.is/).
 
 ### Acknowledgements
+
+* The inspiration for this project came from my best friend's son who loves to guess car brands logos so I started this project with him in mind.
+* Akshat Garg (my mentor) - THANK YOU for all advices, guidance and feedback getting me through the hole process.
+* All platforms and libraries that helped me in fixing all kinds of issues: Slack, Stack Overflow, Youtube, W3Schools. 
