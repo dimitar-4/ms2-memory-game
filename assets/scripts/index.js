@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", () => {
             seconds--;
         } else {
             clearInterval(time);
-            // window.open("./time.html");
+            // window.open("./time.html", "_blank", "height=250,width=250");
             alert("TIMES UP, PRESS RESTART TO TRY AGAIN!");
         }
         if (cardsWon.length === cards.length) {
@@ -140,8 +140,11 @@ document.addEventListener("DOMContentLoaded", () => {
 // Theme Buttons
 
 function turnDefault() {
-    document.body.style.backgroundImage = "url('./assets/images/default-bg.jpg')";
+    document.body.style.backgroundImage = "url('./assets/images/road-bg.jpg')";
 }
-function turnNight() {
-    document.body.style.backgroundImage = "url('./assets/images/dark-theme-bg.jpg')";
+function turnBlue() {
+    document.body.style.backgroundImage = "url('./assets/images/blue-bg.jpg')";
+}
+function turnWorld() {
+    document.body.style.backgroundImage = "url('./assets/images/world-bg.jpg')";
 }

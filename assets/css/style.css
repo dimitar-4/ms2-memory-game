@@ -2,7 +2,7 @@
 
 body {
     font-family: "Exo", sans-serif;
-    background-image: url(../images/default-bg.jpg);
+    background-image: url(../images/road-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -107,7 +107,7 @@ h3 a:hover {
 }
 
 img {
-    border: 1px solid #4ef207;
+    border: 1px solid #e81010;
     border-radius: 5%;
     margin: 5px;
 }
@@ -115,7 +115,7 @@ img {
 img:hover {
     box-shadow:
                 1px 1px #4ef207,
-                2px 2px #524f4f,
+                2px 2px #e81010,
                 3px 3px #4ef207;
     -webkit-transform: translateX(-3px);
     transform: translateX(-3px);
@@ -215,29 +215,24 @@ img:hover {
 }
 
 #default,
-#night {
+#world,
+#blue {
     margin-right: 10px;
     border: 1px solid #4ef207;
     border-radius: 5%;
     letter-spacing: 1px;
 }
 
-#default {
+#default,
+#world,
+#blue {
     background: #524f4f;
     color: #f5f5f0;
 }
 
-#night {
-    background: #524f4f;
-    color: #f5f5f0;
-}
-
-#default:hover {
-    color: #524f4f;
-    background: #4ef207;
-}
-
-#night:hover {
+#default:hover,
+#world:hover,
+#blue:hover {
     color: #524f4f;
     background: #4ef207;
 }
