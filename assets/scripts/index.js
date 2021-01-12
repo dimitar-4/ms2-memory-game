@@ -139,8 +139,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Theme Buttons
 
-function turnDay() {
-    document.body.style.backgroundImage = "url('./assets/images/light-theme-bg.jpg')";
+function turnDefault() {
+    document.body.style.backgroundImage = "url('./assets/images/default-bg.jpg')";
 }
 function turnNight() {
     document.body.style.backgroundImage = "url('./assets/images/dark-theme-bg.jpg')";
