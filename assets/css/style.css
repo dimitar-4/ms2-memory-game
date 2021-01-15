@@ -11,7 +11,7 @@ body {
 /* Home page content */
 
 .home-content {
-    width: 75%;
+    width: 70%;
     margin: auto;
 }
 
@@ -21,7 +21,6 @@ body {
     text-align: center;
     letter-spacing: 1px;
     color: #4ef207;
-    margin-top: 25px;
     margin-bottom: 0;
 }
 
@@ -58,6 +57,7 @@ body {
     text-decoration: none;
     font-size: 30px;
     font-weight: 500;
+    align-items: baseline;
     letter-spacing: 5px;
     border: 1px solid #4ef207;
 }
@@ -65,7 +65,7 @@ body {
 .play:hover {
     text-decoration: none;
     color: #000000;
-    background: rgba(78, 242, 7, 0.5);
+    background: rgba(78, 242, 7, 0.75);
 }
 
 /* Game page Section */
@@ -74,7 +74,7 @@ section {
     margin: auto;
 }
 
-h3 {
+h4 {
     background: rgba(82, 79, 79, 0.5);
     border: 1px solid #4ef207;
     margin-bottom: 0;
@@ -83,18 +83,19 @@ h3 {
     padding: 5px;
 }
 
-h3 a {
+.game-buttons {
     color: #4ef207;
     text-decoration: none;
 }
 
-h3 a:hover {
-    color: #4ef207;
+.game-buttons:hover {
     text-decoration: none;
+    color: #000000;
+    background: rgba(78, 242, 7, 0.75);
 }
 
 .game-wrapper {
-    margin-top: 25px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
@@ -142,10 +143,10 @@ img:hover {
         font-weight: 400;
     }
 
-    h3 {
+    h4 {
         background: rgba(82, 79, 79, 0.5);
         border: 1px solid #4ef207;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .game,
@@ -170,14 +171,14 @@ img:hover {
         font-weight: 400;
     }
 
-    h3 {
+    h4 {
         background: rgba(82, 79, 79, 0.5);
         border: 1px solid #4ef207;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 
     .game-wrapper {
-        margin-bottom: 25px;
+        margin-top: 35px;
     }
 
     .game,
