@@ -77,6 +77,8 @@ but with changing the theme (backgraund image) on the game page so that the feel
     - Used to simplify DOM manipulation.
 11. Web Formatter
     - Used to format the code on all html, css and js files.
+12. Font Awesome
+    - Used to add icons to the buttons and links in the project. 
 
 ## Testing
 
@@ -183,8 +185,9 @@ Deploying the Car Brands Memory Game website to GitHub Pages from its GitHub rep
 
 ### Media
 
-* The background images for both the light and the dark theme are downloaded from [Wallpaper Access](https://wallpaperaccess.com/).
+* The background images are downloaded from [Wallpapercave](https://wallpapercave.com/) and [Freepik](https://www.freepik.com/).
 * The car manufactuters logo images are downloaded from [Pinterest](https://www.pinterest.com/).
+* The card-back image is downloaded from [here](https://365psd.com/).
 * The responsive image on different devices is made [here](http://ami.responsivedesign.is/).
 
 ### Acknowledgements
