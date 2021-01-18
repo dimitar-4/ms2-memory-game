@@ -13,28 +13,28 @@ As the name suggests the symbols/logos on the cards are from different car manuf
 * As a user, I want to be entertained by a simple and relaxing game.
 * As a user, I expect easy to read game menu, options and features so that everything is understandable with just one look.
 * As a user, I want to play a game that helps me concentrate.
-* As a user, I want to play a game that can bring a possitive effect on my memory skills.
+* As a user, I want to play a game that can bring a positive effect on my memory skills.
 * As a user, I want to play a game that covers object that I'm iterested in.
 
 ### Strategy:
 
- The goal for both the user and the owner in this case is the same. The goal is to give the user a pleasent experience while playing. 
+ The goal for both the user and the owner is in this case the same. The goal is to give the user a pleasent experience while playing. 
 
 ### Scope: 
 
- The player will be provided with features such as complete "how to play" instructions, the game board it self, an option to 
- choose from three different images for the game backgraund, 60 seconds countdown timer, and alerts that inform the user if the game is won or 
+ The player will be provided with features such as complete "how to play" instructions, the game board itself, an option to 
+ choose from three different images for the game background, 60 seconds countdown timer, and alerts that inform the user if the game is won or 
  the time is up.
 
 ### Structure:
 
   The layout of the project is clean and simple so the user can navigate and play quick and without any complications. 
- Starting form the home page with a game title on top, that is also a link to the game page.
+ Starting from the home page with a game title on top, that is also a link to the game page.
  Instructions of how to play the game followed by a big "Play" button that leads to the game page. And finally at the bottom there is a positive message
  for the user. 
 
  Opening the game page the user is presented with a game title on top, that is also a link to the home page. Under the game title
- there is an instructions button for the user to be able to read the rules once again if something is not clear. After thet 
+ there is an instructions button for the user to be able to read the rules once again if something is not clear. After that 
  there is a countdown timer to show the user how much time is left to win the game. Next to the timer there is another button, 
  the restart game button. 
  Under the timer and the restart button is the game board that is a 4 by 4 cards grid with a square shape. And finally at the bottom of the page 
@@ -59,7 +59,7 @@ images. "Play" and "Exo" Google fonts are used also for the titles and text cont
 
  * This memory game project is made to be responsive on different devices. 
  * The game includes a full instructions on the Home page that explains how to play the game.
- * The "Play" and "Reastart" buttons on the Home page and above the game board help the user to navigate more easily.
+ * The "Play" and "Restart" buttons on the Home page and above the game board help the user to navigate more easily.
  * The game board as the main feature to interact with.   
  * It also provides the user with three buttons to change the theme (backgraund image) on the game page so 
  that the looks variates for different preferences. 
@@ -72,7 +72,7 @@ images. "Play" and "Exo" Google fonts are used also for the titles and text cont
 4. Balsamiq
    - Used to create wireframes for the basic look of the memory game project.
 5. TinyPNG
-   - Used to compress the images for the backgraunds and the logos in the game.
+   - Used to compress the images for the backgrounds and the logos in the game.
 6. Bootstrap
    - Bootstrap v4.5.3 to make the game responsive on different devices.
 7. Google Fonts
@@ -93,7 +93,7 @@ images. "Play" and "Exo" Google fonts are used also for the titles and text cont
 ### UX Testing
  
  By opening Car Brans Memory Game a simple easy to read entering or home page is displayed.
- The text is easy to read with good contrast to the backgraund. 
+ The text is easy to read with good contrast to the background. 
  
  Home page content:
 
@@ -115,7 +115,7 @@ Game page content:
  This kind of game is good to train concentration and memory. It is also very interesting when the player is someone who likes specific car brand 
  or the idea of playing a memomry game with car brands logos.  
 
- The game was tested also from famaly and friends. All share the UX testing above and there were opinions that it's catchy and enjoy a number af games at a time.      
+ The game was tested also from family and friends. All of them share the UX testing above and there were opinions that the game is catchy.      
 
 ### Code Testing
 
