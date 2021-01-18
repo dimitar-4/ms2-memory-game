@@ -87,8 +87,8 @@ document.addEventListener("DOMContentLoaded", () => {
         cardsChosenId = [];
         resultDisplay.textContent = cardsWon.length;
         if (cardsWon.length === cards.length) {
-            // window.open("./win.html", "_blank", "height=250,width=250");
-            alert("CONGRATULATIONS, YOU WIN!");
+            window.open('../../win.html');
+            // alert("CONGRATULATIONS, YOU WIN!");
         }
     }
 
@@ -117,8 +117,8 @@ document.addEventListener("DOMContentLoaded", () => {
             seconds--;
         } else {
             clearInterval(time);
-            // window.open("./time.html", "_blank", "height=250,width=250");
-            alert("TIMES UP, PRESS RESTART TO TRY AGAIN!");
+            window.open('../../time.html');
+            // alert("TIMES UP, PRESS RESTART TO TRY AGAIN!");
         }
         if (cardsWon.length === cards.length) {
             clearInterval(time);

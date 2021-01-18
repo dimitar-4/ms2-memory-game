@@ -129,8 +129,7 @@ The game is tested on different devices to check if it is responsive and if it s
 
 Mobile devices tested:
 * Samsung Galaxy S20 FE
-* Xiomi Note 5
-* Samsung Galaxy A51
+* Huawei Mate 10 Pro
 
 Other devices tested:
 * Acer Aspire 5 A515-51G
