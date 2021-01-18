@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
         game.append(cardsHTML);
     }
 
-    // Match check
+    // Checking for Match
 
     function checkForMatch() {
         const cardOneId = cardsChosenId[0];
@@ -87,8 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
         cardsChosenId = [];
         resultDisplay.textContent = cardsWon.length;
         if (cardsWon.length === cards.length) {
-            window.open('../../win.html');
-            // alert("CONGRATULATIONS, YOU WIN!");
+            alert("CONGRATULATIONS, YOU WIN!");
         }
     }
 
@@ -107,7 +106,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    // Timer
+    // Countdown Timer
 
     function countDown() {
         if (seconds < 60) {
@@ -117,8 +116,7 @@ document.addEventListener("DOMContentLoaded", () => {
             seconds--;
         } else {
             clearInterval(time);
-            window.open('../../time.html');
-            // alert("TIMES UP, PRESS RESTART TO TRY AGAIN!");
+            alert("TIMES UP, PRESS RESTART TO TRY AGAIN!");
         }
         if (cardsWon.length === cards.length) {
             clearInterval(time);
@@ -141,10 +139,27 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function turnDefault() {
     document.body.style.backgroundImage = "url('./assets/images/road-bg.jpg')";
+    window.localStorage.setItem('bg', 'default')
 }
 function turnBlue() {
     document.body.style.backgroundImage = "url('./assets/images/blue-bg.jpg')";
+    window.localStorage.setItem('bg', 'blue')
 }
 function turnWorld() {
     document.body.style.backgroundImage = "url('./assets/images/world-bg.jpg')";
+    window.localStorage.setItem('bg', 'world')
 }
+
+// Sets The Backgraound image in Local Storage
+
+let storedBg = window.localStorage.getItem('bg');
+  if (storedBg) {
+    if (storedBg === 'default')
+    {
+      turnDefault();
+    } else if (storedBg === 'world') {
+        turnWorld();
+    } else if (storedBg ==='blue') {
+        turnBlue();
+    }
+  }
