@@ -222,39 +222,13 @@ img:hover {
     border: 1px solid #4ef207;
     border-radius: 5%;
     letter-spacing: 1px;
-}
-
-#default,
-#world,
-#blue {
-    background: #524f4f;
-    color: #f5f5f0;
+    background-color: transparent;
+    color: #4ef207;
 }
 
 #default:hover,
 #world:hover,
 #blue:hover {
-    color: #524f4f;
+    color: #000000;
     background: #4ef207;
 }
-
-/* Pop Up windows */
-/* 
-.body-bg {
-    background-image: url(../images/dark-theme-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.pop-up {
-    padding: 10px;
-    font-family: "Play", sans-serif;
-    text-align: center;
-    letter-spacing: 1px;
-    color: #4ef207;
-    margin-top: 25px;
-    margin-bottom: 0;
-    background-color: rgba(82, 79, 79, 0.5);
-    border: 1px solid #4ef207;
-} */
