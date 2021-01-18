@@ -1,6 +1,6 @@
 # Car Brands Memory Game
 
-Play the game - [live link here!](https://dimitar-4.github.io/ms2-memory-game/) 
+[Car Brands Memory Game Live Link](https://dimitar-4.github.io/ms2-memory-game/) 
 
  A simple concentration card game where the player have to match pairs of cards with the same symbols on them for a limited time.
 As the name suggests the symbols/logos on the cards are from different car manufacturers.
@@ -18,18 +18,27 @@ As the name suggests the symbols/logos on the cards are from different car manuf
 
 ### Strategy:
 
- The goal for both the user and the owner in this case are exactly the same. The goal is to give the player a pleasent experience while playing. 
+ The goal for both the user and the owner in this case is the same. The goal is to give the user a pleasent experience while playing. 
 
 ### Scope: 
 
- The player will be provided with features such as complete "how to play" instructions, an option to choose from light and dark theme for the game backgraund, 
-countdown timer.
+ The player will be provided with features such as complete "how to play" instructions, the game board it self, an option to 
+ choose from three different images for the game backgraund, 60 seconds countdown timer, and alerts that inform the user if the game is won or 
+ the time is up.
 
 ### Structure:
 
-  The layout it's in easy to follow logical order. Starting form a welcoming home page with a title on top, that is also a link to the game, 
- and instructions of how to play the game followed by a big start button that leads to the game.
- On the game page around the game grid are placed the player countdown timer and a restart button so that everything is easy to see and follow.
+  The layout of the project is clean and simple so the user can navigate and play quick and without any complications. 
+ Starting form the home page with a game title on top, that is also a link to the game page.
+ Instructions of how to play the game followed by a big "Play" button that leads to the game page. And finally at the bottom there is a positive message
+ for the user. 
+
+ Opening the game page the user is presented with a game title on top, that is also a link to the home page. Under the game title
+ there is an instructions button for the user to be able to read the rules once again if something is not clear. After thet 
+ there is a countdown timer to show the user how much time is left to win the game. Next to the timer there is another button, 
+ the restart game button. 
+ Under the timer and the restart button is the game board that is a 4 by 4 cards grid with a square shape. And finally at the bottom of the page 
+ there are the buttons that allow the user to change the background image of the game.
 
 ### Skeleton (Wireframes):
 
@@ -42,19 +51,18 @@ countdown timer.
 
 ### Surface:
 
- To create a feeling for a classic game from couple of decades ago the project is using white, 
-electric green and dark gray color for the text backgrounds. This three color scheme is also combined 
-with the "Play" and "Exo" Google fonts to further point the project in the desired visual direction. The
-background images are chosen according to the character of the game. 
+ The desired visual direction for the project is to be a classic card game with good contrasts between the content and the background.  
+The main color used in the project is light(electric) green for text, borders, icons etc. It's contrasting good with all available backgrounds 
+images. "Play" and "Exo" Google fonts are used also for the titles and text content to further point the project in the desired visual direction. 
 
 ## Features
 
  * This memory game project is made to be responsive on different devices. 
- * The game includes a full instructions on the Home page that explains how to play.
- * It is also provides interactions not only with the game it self, 
-but with changing the theme (backgraund image) on the game page so that the feel and look variates with the user's preferences. 
- * There are also couple of additional buttons like Restart/Play buttons on the Home page and above the game grid that helps navigating and interacting more easily.
- * The Car Brands Memory Game headings on both pages are links to eachother.  
+ * The game includes a full instructions on the Home page that explains how to play the game.
+ * The "Play" and "Reastart" buttons on the Home page and above the game board help the user to navigate more easily.
+ * The game board as the main feature to interact with.   
+ * It also provides the user with three buttons to change the theme (backgraund image) on the game page so 
+ that the looks variates for different preferences. 
 
 ## Technologies Used 
 
@@ -87,25 +95,27 @@ but with changing the theme (backgraund image) on the game page so that the feel
  By opening Car Brans Memory Game a simple easy to read entering or home page is displayed.
  The text is easy to read with good contrast to the backgraund. 
  
- Home page contains: 
+ Home page content:
+
  1. A Title for the game that is also a link to the game page.  
  2. "How To Play" title followed by a simple instuctions list of how to play the game, and a TIP at the end explaining how to change the theme in the game page. 
  3. Play button that is big and easy to find directly when enter the page.
  4. At the bottom of the page there is a kind sentance thanking the player for playing.
 
- By opening the game page a realy nice and simple layout of is loaded. The name of the game is on top. 
- Under the name there is a 60 seconds timer that starts when a card is clicked. Next to the timer is the restart game buttom. 
- Under that is the gameboard of 16 cards in a square shape. At the bottom are the change theme buttons. 
+Game page content:
+
+ The game title is on top. Under the title an instructions button that links to the "how to play" list on home page.
+ Under that there is a 60 seconds timer that starts when a card is clicked. Next to the timer is the restart game buttom. 
+ Under that is the gameboard of 16 cards in a square shape. At the bottom are the change background buttons. 
  Tha layout of the page is simple and easy to use.
 
- While playing the memory game, the player's focus is grabbed quickly. When the game is won a window is opening and saying "YOU WIN". 
- It is the same when the time is up but the window says "Times Up". It is helping to train 
- concentration and memory. It is also very interesting when the player is someone who likes specific car brand 
- or the idea of playing a memomry game with car brands logos. The player can be focused and at the same time relaxed 
- while playing.  
+ When the game is won an alert is informing the user with the text: "CCONGATULATIONS, YOU WIN!". 
+ It is the same when the time is up but the alert have the text of "Times Up, press restart to try again". 
+ 
+ This kind of game is good to train concentration and memory. It is also very interesting when the player is someone who likes specific car brand 
+ or the idea of playing a memomry game with car brands logos.  
 
- The game was tested also from famaly and friends. All share the UX testing above and there were opinions that it's catchy and easy to forget 
- everything and enjoy a number af games at a time.      
+ The game was tested also from famaly and friends. All share the UX testing above and there were opinions that it's catchy and enjoy a number af games at a time.      
 
 ### Code Testing
 
@@ -120,7 +130,6 @@ All code tests are made by direct input method.
 No problems were shown while testing the game. 
 
 * Chrome
-* Opera 
 * Edge
 
 ### Device Testing
@@ -149,14 +158,7 @@ Adding screenshots from developer tools responsive testings:
 
 ### Links Testing
 
-All inner links and buttons are tested. No problems were shown.
-
-### Problems
-
-While testing the game there are some problems that are left to be fixed in the future.
-The pop up windows must be closed manually and the goal for them is to be displayed for couple of seconds 
-and close automatically. Also already played cards can be played again wich is a problem to fix in the future.
-This problems are noted wile the testing period. 
+All inner links and buttons are tested. No problems were shown. 
 
 
 ## Deployment
@@ -178,14 +180,16 @@ Deploying the Car Brands Memory Game website to GitHub Pages from its GitHub rep
 
 * All the text in the content of the Car Brands Memory Game is written by the developer.
 * These video tutorials [here](https://www.youtube.com/watch?v=bbb9dZotsOc&ab_channel=WebDevJunkie),
- and [here](https://www.youtube.com/watch?v=tjyDOHzKN0w&t=8s&ab_channel=CodewithAniaKub%C3%B3w%23JavaScriptGames) had a big inpact on my project game. 
-* CSS code for the 3D shadow effect when hovering over the game cards is found [here](https://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users/). 
+ and [here](https://www.youtube.com/watch?v=tjyDOHzKN0w&t=8s&ab_channel=CodewithAniaKub%C3%B3w%23JavaScriptGames) helped me a lot and had a big inpact on my project. 
+* CSS code for the 3D shadow effect when hovering over the game cards is from [here](https://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users/). 
 * The source for the countDown function in the script.js file is from [this](https://stackoverflow.com/questions/35299413/1-min-countdown-javascript) stack overflow page. 
 
 ### Media
 
 * The background images are downloaded from [Wallpapercave](https://wallpapercave.com/) and [Freepik](https://www.freepik.com/).
 * The car manufactuters logo images are downloaded from [Pinterest](https://www.pinterest.com/).
+* The suzuki-logo image is downloaded from [Kindpng](https://www.kindpng.com/).
+* The daihatsu-logo image is downloaded from [Breakerlink](https://www.breakerlink.com/).
 * The card-back image is downloaded from [here](https://365psd.com/).
 * The responsive image on different devices is made [here](http://ami.responsivedesign.is/).
 
@@ -193,4 +197,8 @@ Deploying the Car Brands Memory Game website to GitHub Pages from its GitHub rep
 
 * The inspiration for this project came from my best friend's son who loves to guess car brands logos so I started this project with him in mind.
 * Akshat Garg (my mentor) - THANK YOU for all advices, guidance and feedback getting me through the hole process.
-* All platforms and libraries that helped me in fixing all kinds of issues: Slack, Stack Overflow, Youtube, W3Schools. 
+* All platforms and libraries that helped me in fixing all kinds of small issues: 
+   * Slack
+   * Stack Overflow
+   * Youtube
+   * W3Schools 
