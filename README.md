@@ -5,7 +5,7 @@ Play the game - [live link here!](https://dimitar-4.github.io/ms2-memory-game/)
  A simple concentration card game where the player have to match pairs of cards with the same symbols on them for a limited time.
 As the name suggests the symbols/logos on the cards are from different car manufacturers.
 
-![responsive-img](assets/responsive-image/my-memory-game.PNG)
+![responsive-img](assets/responsive-image/responsive-game.PNG)
 
 ## User Experience (UX)
 
@@ -134,14 +134,17 @@ Other devices tested:
 * Acer Aspire 5 A515-51G
 * Acer B7 series-B277(Desktop Monitor)
 
-Adding screenshots from the devices testing and developer tools responsive testings:
+Adding screenshots from mobile devices:
 
-* [Samsung Galaxy A51](https://raw.githubusercontent.com/dimitar-4/ms2-memory-game/master/assets/test-images/screenshot1.png)
-* [Xiomi Note 5](https://raw.githubusercontent.com/dimitar-4/ms2-memory-game/master/assets/test-images/screenshot2.png)
+* [Samsung Galaxy S20 FE](https://raw.githubusercontent.com/dimitar-4/ms2-memory-game/master/assets/test-images/samsung-s20fe.jpg)
+* [Huawei Mate 10 Pro](https://raw.githubusercontent.com/dimitar-4/ms2-memory-game/master/assets/test-images/huawei-mate10-pro.jpg)
+
+Adding screenshots from developer tools responsive testings:
+
 * [IPad](https://raw.githubusercontent.com/dimitar-4/ms2-memory-game/master/assets/test-images/ipad-test.PNG)
-* [Motorola G4](https://raw.githubusercontent.com/dimitar-4/ms2-memory-game/master/assets/test-images/moto-g4-test.PNG)
+* [Motorola G4](https://raw.githubusercontent.com/dimitar-4/ms2-memory-game/master/assets/test-images/moto-g4.PNG)
 * [IPhone](https://raw.githubusercontent.com/dimitar-4/ms2-memory-game/master/assets/test-images/iphone-test.PNG)
-* [Surface Duo](https://raw.githubusercontent.com/dimitar-4/ms2-memory-game/master/assets/test-images/surface-duo-test.PNG)
+* [Surface Duo](https://raw.githubusercontent.com/dimitar-4/ms2-memory-game/master/assets/test-images/surface-duo.PNG)
 
 ### Links Testing
 
